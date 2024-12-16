@@ -19,4 +19,6 @@ COPY . .
 # Compilar a aplicação Go (pode ser modificado conforme o nome da sua aplicação)
 
 # Definir o ponto de entrada (entrypoint) como bash para que você possa interagir
-CMD [ "bash" ]
+CMD [ "bash" "go", "run", "main.go"]
+
+
