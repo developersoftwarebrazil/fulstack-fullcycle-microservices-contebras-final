@@ -59,4 +59,4 @@ COPY --from=builder /app/main .
 EXPOSE 8080
 
 # Comando para iniciar a aplicação
-CMD ["./main", "bash" "go", "run", "main.go"]
+CMD ["./main"]
