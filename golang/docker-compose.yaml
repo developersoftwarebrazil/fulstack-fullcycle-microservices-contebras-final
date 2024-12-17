@@ -31,6 +31,8 @@ services:
       - postgres
       - rabbitmq
 
+    restart: on-failure
+
 volumes:
   external-storage:
     external: true
